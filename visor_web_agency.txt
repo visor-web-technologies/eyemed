@@ -1,0 +1,16 @@
+___ Eymed Opticians and Supliers Zambia Limited ___
+
+This site was designed by BootstrapMade (www.bootstrapmade.com) and 
+Developed by Visor Web Agency (www.visorweb.agency)
+Eymed / Opticians / Supliers / . website 
+|
+- version 1.0.0
+- development email: eyemed.dev@gmail.com
+- visor web agency contact email: developers@visorweb.agency
+- gitHub: please contact Visor Web Agency at developers@visorweb.agency
+- hosting: please contact Visor Web Agency at developers@visorweb.agency
+- dns: please contact Visor Web Agency at developers@visorweb.agency
+|
+- Gmail Mailing API Details:
+- in config folder
+- contact developers@visorweb.agency
