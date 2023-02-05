@@ -1,0 +1,6 @@
+Gmail Mailing API Details:
+- Client ID: "653145893378-fh7f8apgfrq9oslgj47t99ke87adpjkq.apps.googleusercontent.com"
+- Client Secret: "-tHjlMczPMU-BCg1UWmgUSle"
+- Refresh Token: "1//04Pv5BDEZrSo5CgYIARAAGAQSNwF-L9IrqOcRcUead6krZ5yk8tqGieOwJI_l5xbvJWHcmtWje9rU_QfD4vPs0O8QXa_f6vRVAiA"
+- First Access Token: "1//04Pv5BDEZrSo5CgYIARAAGAQSNwF-L9IrqOcRcUead6krZ5yk8tqGieOwJI_l5xbvJWHcmtWje9rU_QfD4vPs0O8QXa_f6vRVAiA"
+- Second manualy cvollected Access Token: "ya29.a0AfH6SMBQ33_OY4Bcb94vunvkPBUmKVZfxni7YXx3YCOD-iQoOluu2d26Dd8yox_Z1VJ8HkK489zMvleFIgJernyDKGFVjaK0LJkCJF1vXM-ml7SriC8dM3bGtKcDAh9yrHZBCQSlXX0uOssi6kuFiD4bNhei"
