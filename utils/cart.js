@@ -21,8 +21,23 @@ function getTotalPrice(array){
     return total;
 }
 
+<<<<<<< HEAD
 // find quantity / number of unique items in cart
 const find_qty = array => array.length;
+=======
+// find quantity / number of unque items in cart
+function find_qty(array){
+
+    let qty = 0;
+
+    array.forEach(item => {
+        qty += 1;
+    });
+
+    return qty;
+
+}
+>>>>>>> e232921c2bb7a206421a35f7b976b8d3aeafb7bb
 
 // factors the setModel and setModel1 functions
 function modelise(route) {

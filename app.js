@@ -1,5 +1,8 @@
 //jshint esversion:6
+<<<<<<< HEAD
 require("dotenv").config();
+=======
+>>>>>>> e232921c2bb7a206421a35f7b976b8d3aeafb7bb
 const express                   = require("express");
 const ejs                       = require("ejs");
 const mongoose                  = require('mongoose');
@@ -31,12 +34,22 @@ app.use(session({
 }));
 app.use(flash());
 
+<<<<<<< HEAD
 const MONGODB_URI = config.db;
 
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false
   }, () => {
     console.log(`Connected to database`)
+=======
+
+//  useUnifiedTopology: true,
+const db = config.db;
+mongoose.connect(db, {
+    useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false
+  }, () => {
+    console.log(`Connected to database, url: ${db}`)
+>>>>>>> e232921c2bb7a206421a35f7b976b8d3aeafb7bb
   }
 );
 
@@ -47,7 +60,11 @@ app.use(
       resave: false,
       saveUninitialized: false,
       store: MongoStore.create({
+<<<<<<< HEAD
         mongoUrl: MONGODB_URI
+=======
+        mongoUrl: config.db
+>>>>>>> e232921c2bb7a206421a35f7b976b8d3aeafb7bb
       }),
       coookie: { secure: true }
     })
