@@ -15,6 +15,8 @@ const app                       = express();
 const initialiseApp             = require("./utils/initialise");
 const config                    = require("./config/config");
 
+process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 1;
+
 //
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({extended: true}));
@@ -31,6 +33,7 @@ app.use(session({
 }));
 app.use(flash());
 
+
 const MONGODB_URI = config.db;
 
 mongoose.connect(MONGODB_URI, {
@@ -38,15 +41,6 @@ mongoose.connect(MONGODB_URI, {
   }, () => {
     console.log(`Connected to database`);
   });
-
-//  useUnifiedTopology: true,
-const db = config.db;
-mongoose.connect(db, {
-    useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false
-  }, () => {
-    console.log(`Connected to database, url: ${db}`);
-  }
-);
 
 // Express sessions midleware
 app.use(
